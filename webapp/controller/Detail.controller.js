@@ -9,7 +9,7 @@ sap.ui.define([
     // shortcut for sap.m.URLHelper
     var URLHelper = mobileLibrary.URLHelper;
 
-    return BaseController.extend("be.ap.flightv2.controller.Detail", {
+    return BaseController.extend("be.ap.flight.controller.Detail", {
 
         formatter: formatter,
 
@@ -94,8 +94,8 @@ sap.ui.define([
 
         onDateChange: function (oEvent) {
             var oDate = oEvent.getSource().getDateValue();
-                oDate = new Date(oDate.setHours(oDate.getHours() + 2)); // enkel voor 2u verschil op te lossen
-                // var sPlanetype ... string opvragen vn planetype
+            oDate = new Date(oDate.setHours(oDate.getHours() + 2)); // enkel voor 2u verschil op te lossen
+            // var sPlanetype ... string opvragen vn planetype
 
             // tabel opvragen
             var oTable = this.byId("flights"),

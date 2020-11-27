@@ -1,6 +1,6 @@
 specVersion: '1.0'
 metadata:
-  name: flightv2
+  name: flight
 type: application
 resources:
   configuration:

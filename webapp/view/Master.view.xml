@@ -1,4 +1,4 @@
-<mvc:View controllerName="be.ap.flightv2.controller.Master"
+<mvc:View controllerName="be.ap.flight.controller.Master"
     xmlns="sap.m"
     xmlns:semantic="sap.f.semantic"
     xmlns:mvc="sap.ui.core.mvc">

@@ -4,7 +4,7 @@ sap.ui.define([
 ], function (BaseController, JSONModel) {
 	"use strict";
 
-	return BaseController.extend("be.ap.flightv2.controller.App", {
+	return BaseController.extend("be.ap.flight.controller.App", {
 
 		onInit : function () {
 			var oViewModel,
