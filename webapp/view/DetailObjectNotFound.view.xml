@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="be.ap.flightv2.controller.DetailObjectNotFound"
+	controllerName="be.ap.flight.controller.DetailObjectNotFound"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
 

@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="be.ap.flightv2.controller.App"
+	controllerName="be.ap.flight.controller.App"
 	displayBlock="true"
 	height="100%"
 	xmlns="sap.m"

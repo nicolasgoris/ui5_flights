@@ -11,7 +11,7 @@ sap.ui.define([
 ], function (BaseController, JSONModel, Filter, Sorter, FilterOperator, GroupHeaderListItem, Device, Fragment, formatter) {
 	"use strict";
 
-	return BaseController.extend("be.ap.flightv2.controller.Master", {
+	return BaseController.extend("be.ap.flight.controller.Master", {
 
 		formatter: formatter,
 
@@ -131,7 +131,7 @@ sap.ui.define([
 			if (!this.byId("viewSettingsDialog")) {
 				Fragment.load({
 					id: this.getView().getId(),
-					name: "be.ap.flightv2.view.ViewSettingsDialog",
+					name: "be.ap.flight.view.ViewSettingsDialog",
 					controller: this
 				}).then(function(oDialog){
 					// connect dialog to the root view of this component (models, lifecycle)

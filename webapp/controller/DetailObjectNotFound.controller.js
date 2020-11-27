@@ -3,5 +3,5 @@ sap.ui.define([
 ], function (BaseController) {
 	"use strict";
 
-	return BaseController.extend("be.ap.flightv2.controller.DetailObjectNotFound", {});
+	return BaseController.extend("be.ap.flight.controller.DetailObjectNotFound", {});
 });
