@@ -112,6 +112,16 @@ sap.ui.define([
             oBinding.filter(aFilters);
         },
 
+        onPressFlight: function (oEvent) {
+            // this.getModel("appView").setProperty("/layout", "TwoColumnsMidExpanded");
+            var oFlight = oEvent.getSource().getBindingContext("detailView");
+            this.getRouter().navTo("bookings", {
+                Carrid: oFlight.getProperty("Carrid"),
+                Connid: oFlight.getProperty("Connid"),
+                Fldate: oFlight.getProperty("Fldate").toISOString()
+            });
+        },
+
         // Filter wissen
         // knop voorzien op xml
         // methode aanroepen

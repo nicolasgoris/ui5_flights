@@ -103,6 +103,15 @@
                         "master",
                         "object"
                     ]
+                },
+                {
+                    "pattern": "Bookings/{Carrid}/{Connid}/{Fldate}",
+                    "name": "bookings",
+                    "target": [
+                        "master",
+                        "object",
+                        "bookings"
+                    ]
                 }
             ],
             "targets": {
@@ -116,6 +125,11 @@
                     "viewId": "detail",
                     "viewLevel": 1,
                     "controlAggregation": "midColumnPages"
+                },
+                "bookings": {
+                    "viewName": "Bookings",
+                    "viewLevel": 1,
+                    "controlAggregation": "endColumnPages"
                 },
                 "detailObjectNotFound": {
                     "viewName": "DetailObjectNotFound",
